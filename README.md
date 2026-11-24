@@ -1,12 +1,6 @@
 # Studi Komparatif Empiris Model Generatif
 
-**Deep Learning (D6421) – Sesi 07: Generative Models | Tugas Take-Home**
-
-| | |
-|---|---|
-| Nama | _[NAMA LENGKAP]_ |
-| NIM | _[NIM]_ |
-| Kelas | _[KELAS]_ |
+**Deep Learning – Generative Models**
 
 Perbandingan enam model generatif, yaitu **Vanilla Autoencoder, Sparse Autoencoder, VAE, Vanilla GAN, DCGAN, dan DDPM**, pada dataset **Fashion-MNIST**. Repo ini juga berisi eksperimen yang membuktikan kenapa **MLP Classifier** tidak bisa dipakai untuk image generation.
 
