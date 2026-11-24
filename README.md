@@ -1,6 +1,12 @@
 # Studi Komparatif Empiris Model Generatif
 
-**Deep Learning – Generative Models**
+**Deep Learning (D6421) – Sesi 07: Generative Models | Tugas Take-Home**
+
+| | |
+|---|---|
+| Nama | _[Akira Agha Nugroho]_ |
+| NIM | _[2802403555]_ |
+| Kelas | _[Deep Learning LB01]_ |
 
 Perbandingan enam model generatif, yaitu **Vanilla Autoencoder, Sparse Autoencoder, VAE, Vanilla GAN, DCGAN, dan DDPM**, pada dataset **Fashion-MNIST**. Repo ini juga berisi eksperimen yang membuktikan kenapa **MLP Classifier** tidak bisa dipakai untuk image generation.
 
@@ -72,6 +78,3 @@ Di luar Kaggle, output tersimpan ke `./kaggle_working/outputs/` dan Input dicari
 
 _Diisi setelah run penuh: salin `outputs/results/metrics_table.md` ke sini._
 
-## Keterangan
-
-Tugas mata kuliah Deep Learning (D6421), Universitas Bina Nusantara.
