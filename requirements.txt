@@ -1,0 +1,8 @@
+# Diuji di Kaggle (GPU T4, Python 3.11+, torch 2.11)
+torch>=2.1
+torchvision>=0.16
+torchmetrics>=1.0
+torch-fidelity>=0.3
+numpy>=1.24
+matplotlib>=3.7
+ipython>=8.0
