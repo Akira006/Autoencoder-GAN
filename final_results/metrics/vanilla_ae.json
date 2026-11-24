@@ -1,0 +1,26 @@
+{
+  "model": "Vanilla AE",
+  "train_time_per_epoch_s": 1.372761277233326,
+  "params": 435536,
+  "latent_dim": "64",
+  "mse": 0.006495453417301178,
+  "mse_std": 0.005439179018139839,
+  "psnr": 23.000974655151367,
+  "psnr_std": 3.0661275386810303,
+  "ssim": 0.8661708235740662,
+  "ssim_std": 0.08816882967948914,
+  "sparsity": {
+    "frac_zero": 0.0,
+    "active_units_per_sample": 64.0,
+    "dead_units": 0,
+    "l1_mean": 77.79801940917969,
+    "hoyer_sparsity": 0.24223023653030396,
+    "frac_all_zero_codes": 0.0
+  },
+  "latency_reconstruct": {
+    "median_ms": 0.20022249998419284,
+    "std_ms": 0.03223025971153977,
+    "n_runs": 20
+  },
+  "loss_cv_tail": 0.014753571467911218
+}

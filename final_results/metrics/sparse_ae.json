@@ -1,0 +1,26 @@
+{
+  "model": "Sparse AE",
+  "train_time_per_epoch_s": 1.4479524151999916,
+  "params": 435536,
+  "latent_dim": "64 (ReLU+L1)",
+  "mse": 0.009762819856405258,
+  "mse_std": 0.007377181202173233,
+  "psnr": 21.091142654418945,
+  "psnr_std": 2.90407133102417,
+  "ssim": 0.8085115551948547,
+  "ssim_std": 0.11680424213409424,
+  "sparsity": {
+    "frac_zero": 0.5811428427696228,
+    "active_units_per_sample": 26.80685806274414,
+    "dead_units": 35,
+    "l1_mean": 7.740830421447754,
+    "hoyer_sparsity": 0.5836808085441589,
+    "frac_all_zero_codes": 0.0
+  },
+  "latency_reconstruct": {
+    "median_ms": 0.22465250003733672,
+    "std_ms": 0.029565905475767127,
+    "n_runs": 20
+  },
+  "loss_cv_tail": 0.010937658389351387
+}

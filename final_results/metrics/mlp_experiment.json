@@ -1,0 +1,82 @@
+{
+  "tahap1_test_acc": 0.8902857142857142,
+  "tahap1_meets_threshold": true,
+  "weight_analysis": {
+    "W1": {
+      "shape(out,in)": [
+        256,
+        784
+      ],
+      "rank": 256,
+      "rel_frob_WtW_minus_I": 18.59143397039227,
+      "condition_number": 42.81414096643391,
+      "rel_frob_Wt_minus_pinv": 3.171809100877494
+    },
+    "W2": {
+      "shape(out,in)": [
+        64,
+        256
+      ],
+      "rank": 64,
+      "rel_frob_WtW_minus_I": 5.49275715765517,
+      "condition_number": 15.533031166985658,
+      "rel_frob_Wt_minus_pinv": 1.988665565060649
+    },
+    "W3": {
+      "shape(out,in)": [
+        10,
+        64
+      ],
+      "rank": 10,
+      "rel_frob_WtW_minus_I": 3.372545112283345,
+      "condition_number": 4.668351527251488,
+      "rel_frob_Wt_minus_pinv": 3.4001173091151857
+    }
+  },
+  "relu_frac_zero_h1": 0.8199095982142857,
+  "relu_frac_zero_zmlp": 0.58115625,
+  "tahap3_transpose_recon": {
+    "mse": 0.25318366289138794,
+    "mse_std": 0.05018993094563484,
+    "psnr": 6.054559707641602,
+    "psnr_std": 0.8929228186607361,
+    "ssim": 0.07806067168712616,
+    "ssim_std": 0.0481414720416069
+  },
+  "tahap4_frozen_decoder": {
+    "mse": 0.02004474774003029,
+    "mse_std": 0.013908736407756805,
+    "psnr": 17.821195602416992,
+    "psnr_std": 2.689769744873047,
+    "ssim": 0.6922057867050171,
+    "ssim_std": 0.14725227653980255
+  },
+  "tahap4_vanilla_ae": {
+    "mse": 0.006495453417301178,
+    "mse_std": 0.005439179018139839,
+    "psnr": 23.000974655151367,
+    "psnr_std": 3.0661275386810303,
+    "ssim": 0.8661708235740662,
+    "ssim_std": 0.08816882967948914
+  },
+  "within_class_var_ratio_zmlp": 0.3087027966976166,
+  "within_class_var_ratio_zae": 0.5759643316268921,
+  "tahap5_frac_zrand_negative": 0.27687498927116394,
+  "tahap5_frac_zmlp_exact_zero": 0.5811562538146973,
+  "tahap5_class_coverage": {
+    "class_hist": [
+      0.09000000357627869,
+      0.05000000074505806,
+      0.14000000059604645,
+      0.07999999821186066,
+      0.11999999731779099,
+      0.05999999865889549,
+      0.2199999988079071,
+      0.009999999776482582,
+      0.20000000298023224,
+      0.029999999329447746
+    ],
+    "class_entropy_norm": 0.9004211461395131,
+    "n_classes_over_2pct": 9
+  }
+}

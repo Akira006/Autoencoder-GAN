@@ -1,0 +1,4 @@
+| Model | FID | Class entropy | Kelas > 2% | Latency gen (ms) | D(x) akhir | D(G(z)) akhir |
+|---|---|---|---|---|---|---|
+| Vanilla GAN | 120.3 | 0.99 | 10 | 0.555 | 0.535 | 0.465 |
+| DCGAN | 20.71 | 0.995 | 10 | 3.708 | 0.585 | 0.415 |

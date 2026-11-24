@@ -1,0 +1,5 @@
+| Model | MSE | PSNR (dB) | SSIM | FID | Active units | Dead units | Latency recon (ms) |
+|---|---|---|---|---|---|---|---|
+| Vanilla AE | 0.0065 | 23 | 0.8662 | N/A | 64 | 0 | 0.2 |
+| Sparse AE | 0.00976 | 21.09 | 0.8085 | N/A | 26.8 | 35 | 0.225 |
+| VAE | 0.01322 | 19.64 | 0.7671 | 86.64 | 64 | 0 | 0.231 |

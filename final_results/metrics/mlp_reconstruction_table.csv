@@ -1,0 +1,4 @@
+Rekonstruksi dari,MSE,PSNR (dB),SSIM
+W^T projection (Tahap 3),0.25318,6.05,0.0781
+Frozen z_MLP + decoder (Tahap 4),0.02004,17.82,0.6922
+Vanilla AE z_AE (pembanding),0.0065,23.0,0.8662
